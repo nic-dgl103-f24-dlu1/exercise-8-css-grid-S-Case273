@@ -77,7 +77,27 @@ header {
     border: 3px solid #988F55;
     border-radius: 15px;
     padding: 1em;
+    max-width: 30%;
 }
+.btn {
+    display: flex;
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #E2CEAA;
+    text-transform: uppercase;
+    opacity: 1;
+    background: #988F55 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    height: 41px;
+    align-items: center;
+    max-width: 176px;
+  }
+  .btn-alt {
+    justify-content: center;
+    border: 1px solid #988F55;
+  }
 .resources {
 
 }
