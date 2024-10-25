@@ -1,0 +1,25 @@
+
+/* General Styling */
+
+body {
+    display: grid;
+    color: #E2CEAA;
+    background-color: #936853;
+    gap: 3em;
+}
+html {
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style-type: none;
+    display: inherit;
+}
+h1 {
+    font-size: 2.6rem;
+    text-transform: capitalize;
+}
+
