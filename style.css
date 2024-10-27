@@ -39,7 +39,8 @@ header {
     grid-template-columns: 1fr 3fr;
     justify-items: center;
     align-items: center;
-
+    border: .5em solid #3F3E14;
+    border-radius: 3px;
 }
 .nav {
     display: flex;
@@ -69,6 +70,9 @@ header {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: #4F5017;
+    border: .5em solid #4F5017;
+    border-radius: 3px;
 }
 .hero img {
     opacity: 0.75;
@@ -107,6 +111,9 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 2em auto;
+    border: .5em solid #4F5017;
+    border-radius: 3px;
 
 }
 .card-title {
@@ -145,6 +152,8 @@ aside {
     align-items: center;
     text-align: center;
     justify-content: space-around;
+    border: .5em solid #3F3E14;
+    border-radius: 3px;
 }
 aside h2 {
     text-transform: capitalize;
@@ -165,6 +174,8 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    border: .5em solid #3F3E14;
+    border-radius: 3px;
 }
 footer img {
     opacity: 0.75;
