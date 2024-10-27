@@ -8,6 +8,7 @@ body {
     background-color: #936853;
     gap: 3em;
     font-size: 1.6rem;
+  font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
 }
 html {
     font-size: 62.5%;
