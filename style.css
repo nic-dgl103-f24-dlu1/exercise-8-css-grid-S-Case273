@@ -3,9 +3,11 @@
 
 body {
     display: grid;
+    grid-template-columns: 4fr 1fr;
     color: #E2CEAA;
     background-color: #936853;
     gap: 3em;
+    font-size: 1.6rem;
 }
 html {
     font-size: 62.5%;
@@ -98,11 +100,47 @@ header {
     justify-content: center;
     border: 1px solid #988F55;
   }
-.resources {
+  /* cards section styling */
+
+.story-container {
+    background-color: #4F5017;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
-aside {
+.card-title {
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+}
+.cards {
+    border: 1px solid #E2CEAA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+    border-radius: 8px;
+    background-color: #3F3E14;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 3em;
+}
 
+.story-container h3 {
+    text-transform: uppercase;
+}
+/* Aside section styling */
+
+aside {
+    display: grid;
+    background-color: #3F3E14;
 }
 footer {
 
