@@ -157,9 +157,32 @@ aside h2 {
 aside img {
     border-radius: 50px;
 }
+/* Footer styling */
 footer {
+    display: flex;
     grid-column: 1 / -1;
     background-color: #3F3E14;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
+footer img {
+    opacity: 0.75;
+    border-radius: 5em;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #988F55;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+.contact {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #988F55;
+    padding: 10px;
+    text-transform: uppercase;
+  }
 
 
